@@ -1,38 +1,92 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Red+Hat+Display&display=swap');
-*{
-    padding: 0;
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap');
+* {
+  font-family: "Red Hat Display", sans-serif;
+  padding: 0;
+  margin: 0;
 }
-:root{
-    --cor-mobile01: #1c1c22;
-    --cor-mobile02: #4e3e0c;
-    --cor-mobile03: #c9b09a;
-    --cor-mobile04: #e8e0dc;
+:root {
+  --cor-mobile01: #1c1c22;
+  --cor-mobile02: #4e3e0c;
+  --cor-mobile03: #c9b09a;
+  --cor-mobile04: #e8e0dc;
+}
+header {
+  background: url(../imagens/imagem-background-cell.webp) no-repeat center
+    center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+}
+.header-caixa-filho {
+  margin: auto;
+  background-color: rgba(42, 42, 42, 0.604);
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  font-size: 1.2em;
+  color: var(--cor-mobile04);
+}
+.header-caixa-filho h1 {
+  padding: 150px 12px 50px;
+}
+.header-caixa-filho p {
+  padding: 15px;
+  font-size: 1.2em;
+}
 
+/* Como Manter um Relacionameto Saudavel? */
+
+.div-title-list-tips {
+  height: 70vh;
+  padding: 1.5em;
+  background-color: var(--cor-mobile04);
+  font-size: 1.2em;
+}
+.div-title-list-tips h2,
+h3 {
+  padding: 40px 0px;
+}
+.div-title-list-tips h3 {
+  text-indent: 40px;
+  color: var(--cor-mobile01);
+}
+
+.div-list-tips {
+  background: var(--cor-mobile03)
+  url(../imagens/pexels-rdne-stock-project-5637731.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.div-list-tips dl{
+    background-color: rgba(0, 0, 0, 0.693);
+    color: white;
+    padding: 50px 0px;
     
 }
-header{
-    background: url(../imagens/imagem-background-cell.webp) no-repeat center center;
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-}
-.header-caixa-filho{
-    margin: auto;
-    background-color: rgba(42, 42, 42, 0.604);
+.div-list-children{
     text-align: center;
-    height: 100vh;
-    width: 100vw;
-    font-size: 1.2em;
-    color: var(--cor-mobile04);
+    margin: auto;
+    margin-bottom: 15px;
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--cor-mobile04);
+    box-shadow: 0px 0px 5px white;
+    
 }
-h1{
-    padding: 150px 12px 50px;
-    font-family: 'Red Hat Display', sans-serif;
+.div-list-children dd{
+    height: 30px;
+    display: none;
 }
-p{
-    padding: 15px;
+.div-list-children:hover{
+    height: 250px;
+    box-shadow: 0px 0px 15px white;
+}
+.div-list-children:hover dd{
+    display: block;
+    padding: 10px;
+}
+.div-list-children dt{
     font-size: 1.2em;
-    font-family: 'Red Hat Display', sans-serif;
 }
