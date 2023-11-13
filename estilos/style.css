@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Red+Hat+Display&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -15,26 +15,24 @@
 header{
     background: url(../imagens/imagem-background-cell.webp) no-repeat center center;
     background-size: cover;
-    border-radius: 0px 0px 15px 15px;
+    height: 100vh;
+    display: flex;
 }
 .header-caixa-filho{
     margin: auto;
-    background-color: #ccccccb8;
+    background-color: rgba(42, 42, 42, 0.604);
     text-align: center;
-    border-radius: 10px 10px 10px 10px;
+    height: 100vh;
+    width: 100vw;
+    font-size: 1.2em;
+    color: var(--cor-mobile04);
 }
 h1{
-    line-height: 1em;
-    padding: 15px;
-    color: var(--cor-mobile01);
-    font-family: 'Great Vibes', cursive;
-    font-size: 1.5em;
+    padding: 150px 12px 50px;
+    font-family: 'Red Hat Display', sans-serif;
 }
 p{
     padding: 15px;
-    font-family: 'Glass Antiqua', cursive;
     font-size: 1.2em;
-    line-height: 1.2em;
-    text-shadow: 0px 2px 9px black;
-    color: var(--cor-mobile01);
+    font-family: 'Red Hat Display', sans-serif;
 }
