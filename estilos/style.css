@@ -15,14 +15,14 @@ header {
   background: url(../imagens/imagem-background-cell.webp) no-repeat center
     center;
   background-size: cover;
-  height: 100vh;
+  height: 90vh;
   display: flex;
 }
 .header-caixa-filho {
   margin: auto;
   background-color: rgba(42, 42, 42, 0.604);
   text-align: center;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   font-size: 1.2em;
   color: var(--cor-mobile04);
