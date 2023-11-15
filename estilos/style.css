@@ -75,9 +75,8 @@ h3 {
     box-shadow: 0px 0px 5px white;
     overflow: hidden;
     height: 100px;
-    transition-property: height color;
+    transition-property: height;
     transition-duration: 1s;
-
 }
 .div-list-children dt{
   color: white;
@@ -89,11 +88,9 @@ h3 {
   padding-top: 30px;
   margin: auto; 
   width: 60vw;
-  color: transparent;
 }
 
 .div-list-children:hover{
-  transition-property: color;
   height: 300px;
   overflow: visible;
   color: var(--cor-mobile04);
