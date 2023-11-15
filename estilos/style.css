@@ -82,17 +82,17 @@ h3 {
   border: 1px solid var(--cor-mobile04);
   border-radius: 10px;
   text-align: center;
-  color: var(--cor-mobile04);
+  color: transparent;
   box-shadow: 0px 0px 5px white;
   overflow: hidden;
-  transition-property: height;
-  transition-duration: 1s;
+  transition: color 1s ease, height .3s; 
+  transition-timing-function: cubic-bezier(.65,0,.4,.99);
 }
 .article-list-children h4{
-  color: white;
   font-weight: bold;
   font-size: 1.2em;
   padding: 30px 20px 40px;
+  color: var(--cor-mobile04);
 }
 .article-list-children p{
   padding-top: 30px;
@@ -103,5 +103,7 @@ h3 {
 .article-list-children:hover{
   height: 300px;
   overflow: visible;
-  color: var(--cor-mobile04);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.345);
+  box-shadow: 0px 0px 15px white;
 }
