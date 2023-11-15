@@ -15,7 +15,7 @@ header {
   background: url(../imagens/imagem-background-cell.webp) no-repeat center
     center;
   background-size: cover;
-  height: 90vh;
+  height: 100vh;
   display: flex;
 }
 .header-caixa-filho {
@@ -28,7 +28,7 @@ header {
   color: var(--cor-mobile04);
 }
 .header-caixa-filho h1 {
-  padding: 50px 1.2em;
+  padding: 40px 18px;
 }
 .header-caixa-filho p {
   padding: 15px 15px 25px;
@@ -38,10 +38,11 @@ header {
 /* Como Manter um Relacionameto Saudavel? */
 
 .div-title-list-tips {
-  height: 80vh;
-  padding: 1.5em;
+  height: 90vh;
+  padding: 15px;
   background-color: var(--cor-mobile04);
   font-size: 1.2em;
+
 }
 .div-title-list-tips h2,
 h3 {
