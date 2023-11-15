@@ -75,18 +75,9 @@ h3 {
     box-shadow: 0px 0px 5px white;
     
 }
-.div-list-children dd{
-    height: 30px;
-    display: none;
-}
-.div-list-children:hover{
-    height: 250px;
-    box-shadow: 0px 0px 15px white;
-}
-.div-list-children:hover dd{
-    display: block;
-    padding: 10px;
-}
 .div-list-children dt{
-    font-size: 1.2em;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 20px;
 }
