@@ -73,11 +73,28 @@ h3 {
     border-radius: 10px;
     border: 1px solid var(--cor-mobile04);
     box-shadow: 0px 0px 5px white;
-    
+    overflow: hidden;
+    height: 100px;
+    transition-property: height color;
+    transition-duration: 1s;
+
 }
 .div-list-children dt{
   color: white;
   font-weight: bold;
   font-size: 1.2em;
-  padding: 20px;
+  padding: 30px 20px 40px ;
+}
+.div-list-children dd{
+  padding-top: 30px;
+  margin: auto; 
+  width: 60vw;
+  color: transparent;
+}
+
+.div-list-children:hover{
+  transition-property: color;
+  height: 300px;
+  overflow: visible;
+  color: var(--cor-mobile04);
 }
