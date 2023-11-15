@@ -57,7 +57,7 @@ h3 {
 /* secao do site que contem as dicas de um relacionamento melhor */
 .div-list-tips {
   background: var(--cor-mobile03)
-    url(../imagens/pexels-rdne-stock-project-5637731.jpg) no-repeat center
+    url(../imagens/casal--idoso.jpg) no-repeat center
     center;
   background-size: cover;
   background-attachment: fixed;
@@ -106,4 +106,9 @@ h3 {
   color: white;
   background-color: rgba(0, 0, 0, 0.345);
   box-shadow: 0px 0px 15px white;
+}
+
+
+.txt-alinhado-right{
+  display: flex;
 }
