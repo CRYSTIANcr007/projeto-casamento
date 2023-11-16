@@ -205,3 +205,10 @@ h3 {
   padding: 20px;
   border-left: 1px solid white;
 }
+
+.imagem-fundo-PB{
+  background: url(../imagens/imagem-fundo-PB.jpg);
+  margin: 15px auto;
+  width: 70%;
+  border-radius: 25px;
+}
