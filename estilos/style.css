@@ -107,7 +107,64 @@ h3 {
   background-color: rgba(0, 0, 0, 0.345);
   box-shadow: 0px 0px 15px white;
 }
+/* =========================================== */
 
-.txt-align-right, .txt-align-left{
+
+.txt-align-left, .txt-align-right{
   display: flex;
+  flex-direction: column;
+}
+
+.section-list-atividades h2{
+  margin: auto;
+  text-align: center;
+  padding: 25px;
+  width: 70%;
+  font-size: 1.6em;
+}
+.section-list-atividades h3{
+  font-size: 1.4em;
+  color: var(--cor-mobile01);
+  padding: 15px 25px 0px;
+}
+.section-list-atividades p{
+  width: 80%;
+  padding: 25px 35px 30px;
+  line-height: 1.5em;
+  font-size: 1.2em;
+  color: black;
+}
+
+
+.imagem-casal{
+  height: 300px;
+  width: 100%;
+  margin: auto;
+  background-color: #ccc;
+  border-radius: 10px;
+  padding-top: 15px;
+}
+.imagem-casal-cozinha{
+  background: url(../imagens/imagem-cell-cozinha.jpg) no-repeat center center;
+  background-size: cover;
+}
+.imagem-casal-passeando{
+  background: url(../imagens/imagem-cell-passeando.jpg) no-repeat center center;
+  background-size: cover;
+}
+.imagem-casal-spa{
+  background: url(../imagens/imagem-cell-spa.jpg) no-repeat center center;
+  background-size: cover;
+}
+.imagem-casal-lendo{
+  background: url(../imagens/imagem-cell-lendo.jpg) no-repeat center center;
+  background-size: cover;
+}
+.imagem-casal-bosque{
+  background: url(../imagens/imagem-cell-bosque.jpg) no-repeat center center;
+  background-size: cover;
+}
+.imagem-casal-foto{
+  background: url(../imagens/imagem-cell-foto.jpg) no-repeat center center;
+  background-size: cover;
 }
