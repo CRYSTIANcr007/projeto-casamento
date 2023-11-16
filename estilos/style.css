@@ -63,12 +63,15 @@ h3 {
   background-attachment: fixed;
   display: flex;
   color: white;
+  border-radius: 0px 0px 25px 25px;
+  box-sizing: border-box;
 }
 
 .div-color-escuro {
   background-color: #1c1c2287;
   height: 100%;
   width: 100vw;
+  border-radius: 0px 0px 25px 25px;
 }
 
 /* caixas de texto dicas */
@@ -147,7 +150,6 @@ h3 {
   color: black;
 }
 
-
 .imagem-casal{
   height: 300px;
   width: 80%;
@@ -179,4 +181,24 @@ h3 {
 .imagem-casal-foto{
   background: url(../imagens/imagem-cell-foto.jpg) no-repeat center center;
   background-size: cover;
+}
+
+.div-aside{
+  background-color: var(--cor-mobile01);
+  width: 80%;
+  margin: 50px auto;
+  transition: .5s;
+  padding: 15px;
+}
+.div-aside:hover{
+  width: 100%;
+  padding: 15px 0px;
+}
+
+.div-aside h3{
+  margin: auto;
+  width: 50vw;
+  color: var(--cor-mobile04);
+  padding: 20px;
+  border-left: 1px solid white;
 }
