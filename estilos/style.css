@@ -114,11 +114,23 @@ h3 {
   display: flex;
   flex-direction: column;
 }
+.txt-align-left{
+  background-color: var(--cor-mobile03);
+  padding-top: 50px;
+}
+.txt-align-right{
+  background-color: var(--cor-mobile04);
+  padding-top: 50px;
+}
+.txt-align-right:first{
+  border-radius: 15px 15px 0px 0px;
+
+}
 
 .section-list-atividades h2{
   margin: auto;
   text-align: center;
-  padding: 25px;
+  padding: 50px;
   width: 70%;
   font-size: 1.6em;
 }
@@ -138,11 +150,11 @@ h3 {
 
 .imagem-casal{
   height: 300px;
-  width: 100%;
+  width: 80%;
   margin: auto;
   background-color: #ccc;
   border-radius: 10px;
-  padding-top: 15px;
+  padding: 15px;
 }
 .imagem-casal-cozinha{
   background: url(../imagens/imagem-cell-cozinha.jpg) no-repeat center center;
