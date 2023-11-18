@@ -204,14 +204,16 @@ header {
   border-left: 1px solid white;
 }
 .div-article-imagem-fundo{
-  height: 500px;
+  height: 565px;
+  box-sizing: border-box;
 
 }
 .imagem-fundo-PB {
   background: linear-gradient(rgba(28, 28, 34, 0.64), #c9b09abf), url(../imagens/imagem-fundo-PB.jpg) no-repeat center center;
+  background-size: cover;
   margin: 90px auto;
   width: 80%;
-  height: 500px;
+  height: 570px;
   transition: .2s;
   border-radius: 15px;
 }
