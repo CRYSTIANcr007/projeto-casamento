@@ -6,7 +6,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-html{
+html {
   background-color: var(--cor-mobile04);
 }
 :root {
@@ -187,7 +187,7 @@ header {
   background-size: cover;
 }
 
-.div-aside{
+.div-aside {
   background-color: var(--cor-mobile01);
   width: 80%;
   transition: 0.5s;
@@ -203,18 +203,18 @@ header {
   color: var(--cor-mobile04);
   border-left: 1px solid white;
 }
-.div-article-imagem-fundo{
+.div-article-imagem-fundo {
   height: 565px;
   box-sizing: border-box;
-
 }
 .imagem-fundo-PB {
-  background: linear-gradient(rgba(28, 28, 34, 0.64), #c9b09abf), url(../imagens/imagem-fundo-PB.jpg) no-repeat center center;
+  background: linear-gradient(rgba(28, 28, 34, 0.64), #c9b09abf),
+    url(../imagens/imagem-fundo-PB.jpg) no-repeat center center;
   background-size: cover;
   margin: 90px auto;
   width: 80%;
   height: 570px;
-  transition: .2s;
+  transition: 0.2s;
   border-radius: 15px;
 }
 
@@ -225,7 +225,7 @@ header {
 .imagem-fundo-PB h3 {
   color: white;
 }
-.imagem-fundo-PB:hover{
+.imagem-fundo-PB:hover {
   width: 100%;
   height: 450px;
 }
