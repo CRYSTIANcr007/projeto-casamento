@@ -4,10 +4,10 @@
   font-family: "Red Hat Display", sans-serif;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
-body{
-  max-width: 100%;
-  background-color: blue;
+html{
+  background-color: var(--cor-mobile04);
 }
 :root {
   --cor-mobile01: #1c1c22;
@@ -23,52 +23,53 @@ header {
   display: flex;
 }
 .header-caixa-filho {
-  margin: auto;
   background-color: rgba(42, 42, 42, 0.604);
   text-align: center;
   height: 100%;
-  width: 100vw;
-  font-size: 1.15em;
+  width: 100%;
+  font-size: 1.1em;
   color: var(--cor-mobile04);
+  padding: 30px;
 }
 .header-caixa-filho h1 {
-  padding: 50px 18px;
+  padding: 50px 0px;
 }
 .header-caixa-filho p {
-  padding: 15px 15px 25px;
   font-size: 1.2em;
 }
 
 /* Como Manter um Relacionameto Saudavel? */
 
-.div-title-list-tips{
+.div-title-list-tips {
   height: 75vh;
-  padding: 15px;
   background-color: var(--cor-mobile04);
   font-size: 1.2em;
-
+}
+.div-title-list-tips h2 {
+  width: 80%;
+  margin: auto;
+  padding-top: 15px;
 }
 .div-title-list-tips h3 {
+  padding: 30px;
   width: 90%;
-  margin: auto;
   color: var(--cor-mobile01);
 }
 
 /* secao do site que contem as dicas de um relacionamento melhor */
 .div-list-tips {
-  background: var(--cor-mobile03)
-    url(../imagens/casal--idoso.jpg) no-repeat center
-    center;
+  background: var(--cor-mobile03) url(../imagens/casal--idoso.jpg) no-repeat
+    center center;
   background-size: cover;
   background-attachment: fixed;
   display: flex;
   color: white;
   border-radius: 0px 0px 25px 25px;
-  box-sizing: border-box;
+  width: 100%;
 }
 
 .div-color-escuro {
-  background-color: #1c1c2287;
+  background-color: #1c1c228f;
   height: 100%;
   width: 100vw;
   border-radius: 0px 0px 25px 25px;
@@ -76,35 +77,38 @@ header {
 
 /* caixas de texto dicas */
 .article-list-children {
+  margin: 25px auto;
+  height: 100px;
+  width: 80%;
+  padding: 15px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 90px;
-  margin: 25px auto;
-  width: 70%;
-  padding: 10px ;
+
   border: 1px solid var(--cor-mobile04);
   border-radius: 10px;
+
   text-align: center;
   color: transparent;
   box-shadow: 0px 0px 5px white;
+
   overflow: hidden;
-  transition: color 1s ease, height .3s; 
-  transition-timing-function: cubic-bezier(.65,0,.4,.99);
+  transition: color 1s ease, height 0.3s;
+  transition-timing-function: cubic-bezier(0.65, 0, 0.4, 0.99);
 }
-.article-list-children h4{
+.article-list-children h4 {
   font-weight: bold;
   font-size: 1.2em;
-  padding: 30px 20px 40px;
   color: var(--cor-mobile04);
+  padding-bottom: 20px;
 }
-.article-list-children p{
-  margin: auto;
-  width: 60vw;
+.article-list-children p {
+  width: 90%;
 }
 
-.article-list-children:hover{
-  height: 240px;
+.article-list-children:hover {
+  height: 250px;
   overflow: visible;
   color: white;
   background-color: rgba(0, 0, 0, 0.345);
@@ -112,97 +116,109 @@ header {
 }
 /* =========================================== */
 
-
-.txt-align-left, .txt-align-right{
-  display: flex;
-  flex-direction: column;
-}
-.txt-align-left{
-  background-color: var(--cor-mobile03);
-  padding-top: 50px;
-}
-.txt-align-right{
-  background-color: var(--cor-mobile04);
-  padding-top: 50px;
-}
-.txt-align-right:first{
-  border-radius: 15px 15px 0px 0px;
-
-}
-
-.section-list-atividades h2{
-  margin: auto;
+.section-list-atividades h2 {
   text-align: center;
-  padding: 50px;
   width: 70%;
   font-size: 1.6em;
+  margin: auto;
+  padding: 15px 0px;
 }
-.section-list-atividades h3{
+.section-list-atividades h3 {
   font-size: 1.4em;
   color: var(--cor-mobile01);
-  padding: 15px 25px 0px;
+  padding: 18px;
+  width: 80%;
 }
-.section-list-atividades p{
+.section-list-atividades p {
   width: 76%;
-  padding: 25px 35px 30px;
   line-height: 1.5em;
   font-size: 1.2em;
   color: black;
+  margin: auto;
+  padding: 15px 0px;
 }
 
-.imagem-casal{
+.imagem-casal {
+  margin-top: 35px;
   height: 300px;
-  width: 80%;
-  margin: auto;
+  width: 100%;
   background-color: #ccc;
   border-radius: 10px;
-  padding: 10px;
 }
-.imagem-casal-cozinha{
+
+.txt-align-right {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.txt-align-left {
+  background-color: var(--cor-mobile03);
+  padding: 20px;
+}
+.txt-align-right {
+  background-color: var(--cor-mobile04);
+}
+.txt-align-right:first {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.imagem-casal-cozinha {
   background: url(../imagens/imagem-cell-cozinha.jpg) no-repeat center center;
   background-size: cover;
 }
-.imagem-casal-passeando{
+.imagem-casal-passeando {
   background: url(../imagens/imagem-cell-passeando.jpg) no-repeat center center;
   background-size: cover;
 }
-.imagem-casal-spa{
+.imagem-casal-spa {
   background: url(../imagens/imagem-cell-spa.jpg) no-repeat center center;
   background-size: cover;
 }
-.imagem-casal-lendo{
+.imagem-casal-lendo {
   background: url(../imagens/imagem-cell-lendo.jpg) no-repeat center center;
   background-size: cover;
 }
-.imagem-casal-bosque{
+.imagem-casal-bosque {
   background: url(../imagens/imagem-cell-bosque.jpg) no-repeat center center;
   background-size: cover;
 }
-.imagem-casal-foto{
+.imagem-casal-foto {
   background: url(../imagens/imagem-cell-foto.jpg) no-repeat center center;
   background-size: cover;
 }
 
-.div-aside{
+.div-aside {
   background-color: var(--cor-mobile01);
   width: 80%;
-  margin: 50px auto;
-  transition: .5s;
-  padding: 15px;
+  transition: 0.5s;
+  margin: 30px auto;
 }
-.div-aside:hover{
+.div-aside:hover {
   width: 100%;
-  padding: 15px 0px;
 }
 
-.div-aside h3{
-  margin: auto;
-  width: 64vw;
+.div-aside h3 {
+  width: 100%;
   color: var(--cor-mobile04);
-  padding: 15px;
   border-left: 1px solid white;
 }
+.imagem-fundo-PB {
+  background: linear-gradient(rgba(28, 28, 34, 0.64), #c9b09abf), url(../imagens/imagem-fundo-PB.jpg) no-repeat center center;
+  margin: 90px auto;
+  width: 80%;
+  height: 500px;
+  transition: .5s;
+  border-radius: 15px;
+}
 
-
-
-/* =================================== */
+.imagem-fundo-PB p {
+  color: white;
+  width: 90%;
+}
+.imagem-fundo-PB h3 {
+  color: white;
+}
+.imagem-fundo-PB:hover{
+  width: 100%;
+  height: 450px;
+}
