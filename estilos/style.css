@@ -187,11 +187,12 @@ header {
   background-size: cover;
 }
 
-.div-aside {
+.div-aside{
   background-color: var(--cor-mobile01);
   width: 80%;
   transition: 0.5s;
   margin: 30px auto;
+  height: 500px;
 }
 .div-aside:hover {
   width: 100%;
@@ -201,6 +202,10 @@ header {
   width: 100%;
   color: var(--cor-mobile04);
   border-left: 1px solid white;
+}
+.div-article-imagem-fundo{
+  height: 500px;
+
 }
 .imagem-fundo-PB {
   background: linear-gradient(rgba(28, 28, 34, 0.64), #c9b09abf), url(../imagens/imagem-fundo-PB.jpg) no-repeat center center;
