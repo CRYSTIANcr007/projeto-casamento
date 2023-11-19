@@ -232,33 +232,45 @@ header {
   width: 100%;
   height: 450px;
 }
-footer{
+footer {
   width: 100%;
   height: 20vh;
   background-color: #1c1c22;
   color: var(--cor-mobile04);
   margin-top: 50px;
 }
-address{
-  width: 40%;
-}
-address i{
+address i {
   color: #e8e0dca7;
   font-size: 1.4em;
   padding: 10px;
 }
-address i:hover{
+address i:hover {
   color: white;
-
 }
-.p-footer{
+.p-footer {
   color: var(--cor-mobile04);
+  padding: 2em;
 }
-.p-footer a{
+.p-footer a {
   text-decoration: none;
   color: white;
 }
-footer  a:hover{
+footer a:hover {
   color: white;
   text-decoration: underline;
+}
+.caixa-blur {
+  transition: 0.2s all;
+  display: flex;
+  justify-content: space-around;
+
+}
+.caixa {
+}
+.caixa-blur:hover .caixa {
+  filter: blur(3px);
+  transform: scale(0.98);
+}
+.caixa:hover {
+  filter: blur(0px) !important;
 }
