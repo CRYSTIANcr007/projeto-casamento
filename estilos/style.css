@@ -245,6 +245,11 @@ address{
 address i{
   color: #e8e0dca7;
   font-size: 1.4em;
+  padding: 10px;
+}
+address i:hover{
+  color: white;
+
 }
 .p-footer{
   color: var(--cor-mobile04);
