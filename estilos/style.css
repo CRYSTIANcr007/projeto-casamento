@@ -22,7 +22,19 @@ header {
   height: 100vh;
   display: flex;
 }
+.header-caixa-texto {
+  box-sizing: border-box;
+  width: 90%;
+  margin: auto;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3em;
+}
 .header-caixa-filho {
+  display: flex;
   background-color: rgba(42, 42, 42, 0.604);
   text-align: center;
   height: 100%;
@@ -30,12 +42,6 @@ header {
   font-size: 1.1em;
   color: var(--cor-mobile04);
   padding: 30px;
-}
-.header-caixa-filho h1 {
-  padding: 50px 0px;
-}
-.header-caixa-filho p {
-  font-size: 1.2em;
 }
 
 /* Como Manter um Relacionameto Saudavel? */
@@ -54,6 +60,9 @@ header {
   padding: 30px;
   width: 90%;
   color: var(--cor-mobile01);
+}
+.div-alianca-list-tips{
+  display: none;
 }
 
 /* secao do site que contem as dicas de um relacionamento melhor */
@@ -263,9 +272,6 @@ footer a:hover {
   transition: 0.2s all;
   display: flex;
   justify-content: space-around;
-
-}
-.caixa {
 }
 .caixa-blur:hover .caixa {
   filter: blur(3px);
