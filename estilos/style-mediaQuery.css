@@ -26,13 +26,17 @@
     font-size: 1.45em;
     max-width: 900px;
   }
-  .header-caixa-texto h1 {
-    padding: 0px 0px;
-  }
   .div-alianca-list-tips{
-    display: inline-block;
+    display: block;
     position: relative;
-    bottom: 0;
-    left: 0;
+  }
+  .div-alianca-filho{
+    display: block;
+    background-color: red;
+    
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 100px;
   }
 }
