@@ -220,7 +220,6 @@ header {
 .div-aside h3 {
   width: 100%;
   color: var(--cor-mobile04);
-  border-left: 1px solid white;
 }
 .div-article-imagem-fundo {
   height: 565px;
